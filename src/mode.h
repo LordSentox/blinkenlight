@@ -16,7 +16,6 @@
 unsigned char MODE;
 #define PROGRAMMING 0x0020 // Programming is BIT5
 #define LEGACY      0x0010 // Legacy is BIT4
-#define SOUND       0x0008 // Sound is BIT3
 
 void mode_init();
 
